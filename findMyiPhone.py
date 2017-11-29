@@ -21,7 +21,7 @@ personB_password_decrypted = kms.decrypt(CiphertextBlob=b64decode(personB_passwo
 iot_button_decrypted = kms.decrypt(CiphertextBlob=b64decode(iot_button_encrypted))['Plaintext']
 
 
-def find_personA_iphone(event, context):
+def find_my_iphone(event, context):
 
     print(event)
 
